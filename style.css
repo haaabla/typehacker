@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    z-index: 1;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+
+p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.tail-top, #page-wrapper {
+    background-color: #FDFDFD;
+}
+
+textarea, .speech, .tail-bottom {
+    background-color: #73B0F5;
+}
+
+#page-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    height: 75px;
+}
+
+.label {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.trump {
+    z-index: 2;
+    position: absolute;
+    left: 140px;
+    top: -25px;
+    transform: rotate(10deg);
+}
+
+textarea {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    outline: none;
+    border: 0px;
+    font-size: 2.2em;
+    width: 350px;
+    height: 370px;
+}
+
+.speech {
+    position: relative;
+    min-width: 480px;
+    min-height: 460px;
+    border-radius: 15% 15% 15% 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tail-top, .tail-bottom {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}
+
+.tail-top {
+    border-radius: 0 0 50px 0;
+    z-index: 1;
+}
+
+.tail-bottom {
+    z-index: 0;
+}
+
+#textareaId {
+}
